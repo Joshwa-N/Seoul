@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { Plus, Search, Pencil, Trash2, AlertTriangle, Package } from 'lucide-react';
 import { getProducts, deleteProduct, saveProduct } from '@/lib/store';
 import type { StoreProduct } from '@/lib/store';
